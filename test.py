@@ -6,7 +6,7 @@ class HasB:
     def method(self):
         return 'b'
         
-class HasAB(HasA, HasB):
+class HasAB(HasB, HasA):
     def method(self):
         return 'ab'
         
